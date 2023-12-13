@@ -20,4 +20,8 @@ describe ("cambio monedas", ()=>{
     it ("devolver un vector con 9", ()=>{
         expect (cambioMonedas (9)).toEqual([5,2,2])
     })
+
+    it ("devolver un vector con 13", ()=>{
+        expect (cambioMonedas (13)).toEqual([5,5,2,1])
+    })
 })
